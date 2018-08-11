@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Todo: estudiar los estilos gradient aplicados al boton en un estado determinado-->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item>
+        <bitmap android:src="@android:drawable/ic_menu_add"/>
+    </item>
+    <item>
+        <shape xmlns:android="http://schemas.android.com/apk/res/android">
+            <gradient android:angle="90" android:startColor="#c266ff" android:centerColor="#ad33ff" android:endColor="#7a00cc"/>
+        </shape>
+    </item>
+</layer-list>
